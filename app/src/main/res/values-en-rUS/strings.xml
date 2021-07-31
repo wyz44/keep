@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">keep</string>
+    <string name="item_input_hint">Enter a description</string>
+    <string name="cost_input_hint">Enter the amount</string>
+    <string name="sum_hint">Total  =</string>
+    <string name="sum">99999999</string>
+</resources>

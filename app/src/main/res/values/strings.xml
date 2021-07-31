@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">keep</string>
+    <string name="item_input_hint">輸入項目</string>
+    <string name="cost_input_hint">輸入金額</string>
+    <string name="sum_hint">金額  =</string>
+    <string name="sum">99999999</string>
 </resources>

@@ -11,15 +11,15 @@
         android:layout_weight="1"
         android:text="1"/>
     <TextView
-        android:id="@+id/item_title"
+        android:id="@+id/item_name"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_weight="6"
-        android:textSize="25dp"/>
+        android:textSize="25sp"/>
     <TextView
-        android:id="@+id/cost_title"
+        android:id="@+id/cost_number"
         android:layout_width="0dp"
         android:layout_height="40dp"
         android:layout_weight="6"
-        android:textSize="25dp"/>
+        android:textSize="25sp"/>
 </LinearLayout>

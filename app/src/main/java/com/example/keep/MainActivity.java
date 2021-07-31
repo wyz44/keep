@@ -18,7 +18,7 @@ import java.util.LinkedList;
 public class MainActivity extends AppCompatActivity {
     private ListView listview;
     private String[] from = {"num", "item", "cost"};
-    private int[] to = {R.id.num, R.id.item_title, R.id.cost_title};
+    private int[] to = {R.id.num, R.id.item_name, R.id.cost_number};
     private LinkedList<HashMap<String,String>> data = new LinkedList<>();
     private SimpleAdapter adapter;
     private EditText cost, item;

@@ -18,13 +18,14 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="輸入項目"/>
+            android:hint="@string/item_input_hint"/>
         <EditText
             android:id="@+id/cost"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="5"
-            android:hint="輸入金額"/>
+            android:hint="@string/cost_input_hint"
+            android:inputType="numberDecimal"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -48,15 +49,15 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="總和  ="
-            android:textSize="30dp"
+            android:text="@string/sum_hint"
+            android:textSize="30sp"
             android:gravity="center"/>
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="999999999"
-            android:textSize="30dp"
+            android:text="@string/sum"
+            android:textSize="30sp"
             android:gravity="center"/>
     </LinearLayout>
 </LinearLayout>
